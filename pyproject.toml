@@ -1,0 +1,11 @@
+[project]
+name = "bw-pdf"
+version = "0.1.0"
+description = "Convert scanned PDF pages to black and white"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=12.2.0",
+    "pymupdf>=1.27.2.3",
+    "tqdm>=4.68.3",
+]
